@@ -13,13 +13,13 @@
     </button>
 
     <button>
-        <a href="">
+        <a href="http://127.0.0.1:8000/Edit_Product">
             Edit Product
         </a>
     </button>
 
     <button>
-        <a href="">
+        <a href="http://127.0.0.1:8000/Delete_Product">
             Delete Product
         </a>
     </button>

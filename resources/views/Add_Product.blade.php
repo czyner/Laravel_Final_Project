@@ -37,6 +37,13 @@
                             <button type="submit" class="btn btn-primary">Add Product</button>
                         </div>
 
+                        <div class="form-group mb-3">
+                            <button type="submit" class="btn btn-primary">
+                                <a href="http://127.0.0.1:8000/Inventory">
+                                    Back Button
+                                </a></button>
+                        </div>
+
                     </form>
 
                 </div>

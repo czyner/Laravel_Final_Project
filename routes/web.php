@@ -21,6 +21,13 @@ Route::get('/Find_Product', function (){
     return view('Find_Product');
 });
 
+Route::get('/Edit_Product', function (){
+    return view('Edit_Product');
+});
+
+Route::get('/Delete_Product', function (){
+    return view('Delete_Product');
+});
 
 Route::get('/Inventory', [InventoryController::class, 'Show']);
 Route::get('add-add_product', [Add_ProductController::class, 'create']);
