@@ -1,5 +1,29 @@
 @include('partials.header')
 <h1>Inventory List</h1>
+    <button>
+        <a href="http://127.0.0.1:8000/Add_Product">
+            Add Product
+        </a>
+    </button>
+
+    <button>
+        <a href="">
+            Find Product
+        </a>
+    </button>
+
+    <button>
+        <a href="">
+            Edit Product
+        </a>
+    </button>
+
+    <button>
+        <a href="">
+            Delete Product
+        </a>
+    </button>
+
 <table border='1'>
     <tr>
         <td>ID</td>

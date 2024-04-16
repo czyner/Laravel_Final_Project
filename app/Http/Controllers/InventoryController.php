@@ -14,5 +14,5 @@ class InventoryController extends Controller
         return view('inventory', ['inventory'=>$data]);
     }
 
-
+    
 }
