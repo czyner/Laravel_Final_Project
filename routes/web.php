@@ -9,7 +9,7 @@ use App\Http\Controllers\Add_ProductController;
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/Inventory');
 });
 
 
@@ -32,3 +32,5 @@ Route::get('/Delete_Product', function (){
 Route::get('/Inventory', [InventoryController::class, 'Show']);
 Route::get('add-add_product', [Add_ProductController::class, 'create']);
 Route::post('add-add_product', [Add_ProductController::class, 'store']);
+
+//sir puputok na ulo namin huhu
