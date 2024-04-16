@@ -17,4 +17,5 @@ class Add_Product extends Model
         'quantity',
         'price',
     ];
+    
 }

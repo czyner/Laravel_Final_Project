@@ -7,7 +7,7 @@
     </button>
 
     <button>
-        <a href="">
+        <a href="http://127.0.0.1:8000/Find_Product">
             Find Product
         </a>
     </button>
